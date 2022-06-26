@@ -573,7 +573,7 @@ p:last-child {
 }
 
 .button-item {
-    transition: color var(--primary-transition-time) var(--primary-cubic-bezier);
+    /* transition: color var(--primary-transition-time) var(--primary-cubic-bezier); */
     background-color: var(--primary-transition-time) var(--primary-cubic-bezier);
     box-shadow: var(--primary-transition-time) var(--primary-cubic-bezier);
 }
@@ -587,6 +587,7 @@ p:last-child {
 .button-primary:focus,
 .button-secondary:hover,
 .button-secondary:focus {
+    transition: color var(--primary-transition-time) var(--primary-cubic-bezier);
     background-color: var(--accent-text-color);
     color: var(--accent-header-name-color);
 }
